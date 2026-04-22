@@ -4,11 +4,11 @@ m1 combat system with combos, blocking, and server-authoritative hit validation.
 
 structure
 
-- CombatHandler — entry point, wires remotes and player lifecycle
-- CombatModule — hit resolution, block state, knockback
-- CombatConfig — tuning values
-- HitboxModule — overlap-based hit detection
-- CombatClient — input, prediction, animation, camera shake
+- CombatHandler entry point, wires remotes and player lifecycle
+- CombatModule hit resolution, block state, knockback
+- CombatConfig tuning values
+- HitboxModule overlap-based hit detection
+- CombatClient input, prediction, animation, camera shake
 
 how it works
 
